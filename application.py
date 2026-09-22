@@ -34,4 +34,4 @@ while True:
     cv2.imshow('Camera', display_frame)
 
     if cv2.waitKey(1) == ord('q'):
-        break
+        break   
