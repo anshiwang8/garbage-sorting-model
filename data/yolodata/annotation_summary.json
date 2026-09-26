@@ -1,0 +1,40 @@
+{
+  "total_images": 14620,
+  "total_labels": 14620,
+  "total_annotated_previews": 14620,
+  "splits": {
+    "test": 2651,
+    "train": 9318,
+    "val": 2651
+  },
+  "classes": {
+    "Compost": 699,
+    "Garbage": 3160,
+    "None": 4097,
+    "Recycling": 6664
+  },
+  "review_count": 6216,
+  "review_reasons": {
+    "multiple_foreground_pieces": 359,
+    "multiple_detected_objects": 872,
+    "nearly_full_frame_box": 1698,
+    "low_detector_confidence": 3549,
+    "detector_foreground_disagreement": 357,
+    "small_foreground": 161,
+    "same_image_has_conflicting_class_labels": 13,
+    "check_existing_class_label": 646,
+    "visually_reviewed_but_ambiguous": 24
+  },
+  "methods": {
+    "visually_verified_reference_melon": 1,
+    "detector_and_foreground": 8200,
+    "foreground_fallback": 2419,
+    "detector": 3804,
+    "visually_reviewed_main_object": 193,
+    "visually_verified_full_frame_cardboard": 3
+  },
+  "visually_reviewed_boxes": 197,
+  "normalized_clean_copies": 18,
+  "source_root": "C:\\Users\\anshi\\Desktop\\garbage sorting\\data\\Raw Data",
+  "output_root": "C:\\Users\\anshi\\Desktop\\garbage sorting\\data\\yolodata"
+}

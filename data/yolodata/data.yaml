@@ -1,0 +1,9 @@
+path: C:/Users/anshi/Desktop/garbage sorting/data/yolodata
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: "Compost"
+  1: "Garbage"
+  2: "None"
+  3: "Recycling"

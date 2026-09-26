@@ -1,0 +1,1373 @@
+{
+  "expected_images": 14620,
+  "source_root": "C:\\Users\\anshi\\Desktop\\garbage sorting\\data\\Raw Data",
+  "output_root": "C:\\Users\\anshi\\Desktop\\garbage sorting\\data\\yolodata",
+  "expected_split_counts": {
+    "test": 2651,
+    "train": 9318,
+    "val": 2651
+  },
+  "expected_class_counts": {
+    "Compost": 699,
+    "Garbage": 3160,
+    "None": 4097,
+    "Recycling": 6664
+  },
+  "status": "passed",
+  "counts": {
+    "data_yaml_valid": 1,
+    "unchanged_sources": 14620,
+    "byte_copies_valid": 14602,
+    "labels_valid": 14620,
+    "preview_dimensions_valid": 14620,
+    "red_previews_sample_valid": 138,
+    "normalized_images_valid": 18
+  },
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "normalized_image_metrics": [
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_112.jpg",
+      "mae": 0.4623,
+      "rmse": 0.8176
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_1391.jpg",
+      "mae": 0.1989,
+      "rmse": 0.5392
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_470.jpg",
+      "mae": 0.6165,
+      "rmse": 1.0691
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_697.jpg",
+      "mae": 0.4057,
+      "rmse": 0.7118
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_132.jpg",
+      "mae": 0.6039,
+      "rmse": 0.9424
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_210.jpg",
+      "mae": 0.4623,
+      "rmse": 0.7559
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_101.jpg",
+      "mae": 0.1976,
+      "rmse": 0.4955
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_521.jpg",
+      "mae": 0.1887,
+      "rmse": 0.487
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_1227.jpg",
+      "mae": 0.2708,
+      "rmse": 0.6214
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_1272.jpg",
+      "mae": 0.1946,
+      "rmse": 0.5262
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_167.jpg",
+      "mae": 1.0406,
+      "rmse": 1.4488
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_611.jpg",
+      "mae": 0.4113,
+      "rmse": 0.7822
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_925.jpg",
+      "mae": 0.6254,
+      "rmse": 0.9593
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_599.jpg",
+      "mae": 0.4593,
+      "rmse": 0.8419
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_77.jpg",
+      "mae": 0.3429,
+      "rmse": 0.7057
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_969.jpg",
+      "mae": 0.7045,
+      "rmse": 1.0551
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_217.jpg",
+      "mae": 0.2977,
+      "rmse": 0.6245
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_329.jpg",
+      "mae": 0.2237,
+      "rmse": 0.5605
+    }
+  ],
+  "preview_sample_size": 138,
+  "preview_sample_metrics": [
+    {
+      "source": "Testing Dataset\\Compost\\biological_1.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_189.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_209.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_391.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_489.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_490.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_533.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_623.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_65.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Compost\\biological_655.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_00251.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_00740.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_10778.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_12368.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_143.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_15247.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_15720.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_15895.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_16877.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Garbage\\trash_17047.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\battery_491.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\battery_83.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\clothes_1245.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\clothes_165.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_1121.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_501.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_530.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_627.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_67.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\None\\shoes_990.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\cardboard_394.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\cardboard_618.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\cardboard_947.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\glass246.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\glass343.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\metal369.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\paper_893.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_112.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_1391.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_163.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_470.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_697.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_743.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Testing Dataset\\Recycling\\plastic_834.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_134.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_161.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_168.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_171.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_336.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_354.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_371.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_520.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_636.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Compost\\biological_8.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\plastic_679.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash94.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_04201.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_05650.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_06732.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_08777.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_10290.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_11396.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_11418.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_132.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_19462.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Garbage\\trash_210.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\battery_207.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\battery_420.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\clothes_1028.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\clothes_1070.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\clothes_1119.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\clothes_1268.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\clothes_1345.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\shoes_1430.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\shoes_458.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\None\\shoes_595.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard336.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_101.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_1177.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_28.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_396.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\cardboard_521.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\metal168.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper412.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_1227.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_1272.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_167.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_51.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_513.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_611.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\paper_925.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_1402.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_599.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_760.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_77.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Training Dataset\\Recycling\\plastic_969.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_19.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_244.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_288.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_327.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_328.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_47.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_58.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_695.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_82.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Compost\\biological_96.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\plastic_854.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_02567.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_07320.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_13113.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_13876.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_15604.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_17512.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_18075.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_340.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Garbage\\trash_4.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\battery_662.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_1330.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_1515.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_1529.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_1834.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_831.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\clothes_975.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\shoes_49.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\shoes_619.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\None\\shoes_929.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\cardboard28.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\cardboard298.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\cardboard_1308.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\paper593.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\paper_117.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\paper_420.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\paper_441.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\paper_667.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_217.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_329.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_857.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "source": "Validation Dataset\\Recycling\\plastic_890.jpg",
+      "red_edge_coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "limits": {
+    "max_mae": 8.0,
+    "max_rmse": 15.0,
+    "box_edge_tolerance_normalized": 2e-06
+  },
+  "note": "This verifies file integrity, label consistency, geometry and sampled drawn borders; semantic object-box accuracy still requires visual review."
+}
