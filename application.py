@@ -59,6 +59,11 @@ while True:
         predicted_class = class_names[predicted_index]
 
         text = f"Predicted Class: {predicted_class}"
+
+        # Show how much the model thinks the object belongs to each category
+        for i, (name, prob) in enumerate(zip(class_names, prediction[0])):
+            color = (0, 255, 0) if i == predicted_index else (255, 255, 255)
+            cv2.putText(display_frame, f"{name}: {float(prob):.0%}", (20, 75 + i * 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
     else:
         text = "No confident detection"
 
