@@ -1,7 +1,5 @@
 # Garbage Sorting
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
 A real-time computer vision system that detects objects and classifies them as compost, garbage, recycling, or none.
 
 This project was built as an introduction to machine learning and computer vision. It uses a MobileNetV2-based image classifier to categorize waste and a custom-trained YOLO object detector to isolate the object of interest from the camera background.
